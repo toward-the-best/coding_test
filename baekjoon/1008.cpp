@@ -24,7 +24,7 @@ int main(int argc, const char *argv[]) {
 
         if (isNumber(a) && isNumber(b)) {
             std::cout << std::fixed;
-            std::cout.precision(9);
+            std::cout.precision(12);
             std::cout << std::stod(a) / std::stod(b);
         }
         return 0;
